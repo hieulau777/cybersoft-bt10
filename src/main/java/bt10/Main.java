@@ -18,7 +18,7 @@ import bt10.model.VanDongVien;
 public class Main {
 
 	public static void main(String[] args) {
-		
+		//
 		bai1();
 		bai2();
 		bai3();
@@ -106,7 +106,6 @@ public class Main {
 		}
 		System.out.println("=====================================\n");
 
-		// Nhóm các xe có cùng vận tốc
 		Map<Integer, List<Oto>> map = new HashMap<>();
 		for (Oto xe : listOto) {
 		    map.computeIfAbsent(xe.getVanTocToiDa(), k -> new ArrayList<>()).add(xe);

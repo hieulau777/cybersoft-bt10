@@ -3,6 +3,7 @@ package bt10.model;
 public class NhanVienSanXuat extends NhanVien {
 	private Integer luongCanBan;
 	private Integer soSanPham;
+	// Tao java doc
 	/**
 	 * Khởi tạo một nhân viên sản xuất với lương cơ bản và số sản phẩm đã sản xuất.
 	 *

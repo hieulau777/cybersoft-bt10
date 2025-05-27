@@ -1,4 +1,4 @@
-package bt10;
+package bt10.model;
 
 public class PhanSo {
 	private int tuSo;
@@ -17,17 +17,10 @@ public class PhanSo {
 	}
 	
 	public PhanSo cong(PhanSo phanSo) {
-//		String format = printFormat(" + ", phanSo);
-		
 		int tuSo1 = this.tuSo * phanSo.mauSo;
 		int tuSo2 = phanSo.tuSo * this.mauSo;
 		int tuSo = tuSo1 + tuSo2;
 		int mauSo = this.mauSo * phanSo.mauSo;
-//		PhanSo result = rutGon(tuSo, mauSo);
-//		String resultTuSo = Integer.toString(result.tuSo);
-//		String resultMauSo = result.mauSo == 1 ? "" : "/" + Integer.toString(result.mauSo);
-//		String resultString = resultTuSo + resultMauSo;
-		
 		return rutGon(tuSo, mauSo);
 	}
 	
